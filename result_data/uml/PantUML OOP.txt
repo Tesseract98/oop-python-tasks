@@ -1,0 +1,86 @@
+@startuml
+class Zoo{
+-__zoo_strings
++__init__()
++zoo_string()
++zoo_string()
++deleteAnimal()
++deleteEmployee()
++deleteString()
++__deleteIndex()
+}
+
+class Employee{
+-instances
+-__profession
+-code
++def __init__():
++def getProfession():
++def setProfession():
++__del__():
+}
+
+class DataXml{
++write()
++read()
+}
+
+class DataSql{
++write()
++read()
+}
+
+class Cage{
+-instances
++__init__()
+}
+
+
+class ZooString{
+-__animals
+-__employees
+-__cage
++def __init__()
++def getAnimals()
++def setAnimals()
++def getEmployees()
++def setEmployees()
++def setCage()
++def getCage()
++def deleteCage()
++def show()
+}
+
+class AllXml{
+-instances
+-added = False
+-__name = name
+-__code
++__init__()
++getName()
++setName()
++code()
++code()
+}
+
+class Animal{
+-instances
+-__food
+-code
++__init__():
++getFood():
++setFood():
++__del__():
+}
+
+
+Animal --|> AllXml
+Cage --|> AllXml
+Employee --|> AllXml
+Zoo "1" o-- "*" ZooString
+Animal "*" --o "1" ZooString
+Cage "*" --o "1" ZooString
+Employee "*" --o "1" ZooString
+Zoo <-- DataXml
+Zoo <-- DataSql
+@enduml

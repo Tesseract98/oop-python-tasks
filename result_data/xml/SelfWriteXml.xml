@@ -1,0 +1,30 @@
+ <Zoo>
+     
+    <Cage code='1' number = '1'/>
+    <Cage code='2' number = '2'/>
+     
+    <Employee code='1' name = "Max" profession = "cleaner"/>
+    <Employee code='2' name = "Brad" profession = "breadwinner"/>
+    <Employee code='3' name = "Mark" profession = "cleaner"/>       
+     
+    <Animal code='1' kind = "lion" food = "meat"/> 
+    <Animal code='2' kind = "elephant" food = "fruit"/> 
+    <Animal code='3' kind = "tiger" food = "meat"/> 
+    
+    <ZooString>
+        <Cage code = "1"/>
+        <Animal code = '1'/>
+        <Animal code = '2'/>
+        <Employee code = '1'/>
+        <Employee code = '2'/>
+    </ZooString>
+
+    <ZooString>
+        <Cage code = "2"/>
+        <Animal code = '1'/>
+        <Animal code = '3'/>
+        <Employee code = '3'/>
+        <Employee code = '2'/>
+    </ZooString>
+
+</Zoo>

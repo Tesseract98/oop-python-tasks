@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Zoo>
+  <Cage code="2" number="2"/>
+  <Animal code="3" kind="tiger" food="meat"/>
+  <Animal code="4" kind="tiger" food="meat"/>
+  <Employee code="1" name="Max" profession="breadwinner"/>
+  <Cage code="1" number="1"/>
+  <Animal code="1" kind="zebra" food="fruit"/>
+  <Animal code="2" kind="elephant" food="fruit"/>
+  <ZooString>
+    <Cage code="2"/>
+    <Animal code="3"/>
+    <Animal code="4"/>
+    <Employee code="1"/>
+  </ZooString>
+  <ZooString>
+    <Cage code="1"/>
+    <Animal code="1"/>
+    <Animal code="2"/>
+    <Employee code="1"/>
+  </ZooString>
+</Zoo>
