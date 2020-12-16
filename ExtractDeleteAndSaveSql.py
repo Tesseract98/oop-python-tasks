@@ -7,7 +7,7 @@ def main():
     zoo = Zoo()
     DataSql.read('init.sqlite', zoo)
     zoo.delete_animal(3)
-    zoo.zoo_string[1].set_animals(Animal('lion', 'meat'))
+    zoo.zoo_string[0].set_animals(Animal('lion', 'meat'))
     DataSql.write('transformed.sqlite', zoo)
     for i in zoo.zoo_string:
         i.show()
